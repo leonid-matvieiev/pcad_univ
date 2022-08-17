@@ -1,0 +1,29 @@
+  (ncDrillSettings 
+    (units in)
+    (ncDrillFormat 2 4)
+     (codeFormat AsciiNone)
+    (zeroFormat None)
+    (outputPath "%s")
+    (viewLog True)
+    (autoClear True)
+    (camQueueEntry "DRP"
+      (layerList 
+        (layerNumRef 1)
+        (layerNumRef 2)
+      )
+      (isSelected True)
+      (drillSymSize 2.032)
+      (outputDrillSymPlated True)
+      (outputDrillSymNonplated False)
+    )
+    (camQueueEntry "DRN"
+      (layerList 
+        (layerNumRef 1)
+        (layerNumRef 2)
+      )
+      (isSelected True)
+      (drillSymSize 2.032)
+      (outputDrillSymPlated False)
+      (outputDrillSymNonplated True)
+    )
+  )
